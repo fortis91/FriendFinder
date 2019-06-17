@@ -1,7 +1,7 @@
 let friendArray = [
     {
         "name": "Gilligan",
-        "photoURL": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085843/la-isla-de-gilligan-610x400.jpg",
+        "photo": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085843/la-isla-de-gilligan-610x400.jpg",
         "scores": [
             5,
             1,
@@ -17,7 +17,7 @@ let friendArray = [
     },
     {
         "name": "Skipper",
-        "photoURL": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085844/alanhalejr.jpg",
+        "photo": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085844/alanhalejr.jpg",
         "scores": [
             4,
             2,
@@ -33,7 +33,7 @@ let friendArray = [
     },
     {
         "name": "Mrs. Howell",
-        "photoURL": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085842/Gilligan-Gets-Bugged-gilligans-island-29860649-813-621.jpg",
+        "photo": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085842/Gilligan-Gets-Bugged-gilligans-island-29860649-813-621.jpg",
         "scores": [
             1,
             5,
@@ -49,7 +49,7 @@ let friendArray = [
     },
     {
         "name": "Mary Anne",
-        "photoURL": "http://www.celebs101.com/gallery/Dawn_Wells/28046/dawn_wells_photo_85.jpg",
+        "photo": "http://www.celebs101.com/gallery/Dawn_Wells/28046/dawn_wells_photo_85.jpg",
         "scores": [
             1,
             1,
@@ -65,7 +65,7 @@ let friendArray = [
     },
     {
         "name": "Ginger",
-        "photoURL": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085840/ea9b4731c98cc66ad3ac5f0726562d4d-tina-louise-redheads.jpg",
+        "photo": "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085840/ea9b4731c98cc66ad3ac5f0726562d4d-tina-louise-redheads.jpg",
         "scores": [
             5,
             5,
@@ -81,7 +81,7 @@ let friendArray = [
     },
     {
         "name": "The Professor",
-        "photoURL": "https://upload.wikimedia.org/wikipedia/en/9/9c/The_Professor_%28Gilligan%27s_Island%29.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/en/9/9c/The_Professor_%28Gilligan%27s_Island%29.jpg",
         "scores": [
             5,
             1,
@@ -97,7 +97,7 @@ let friendArray = [
     },
     {
         "name": "Mr. Howell",
-        "photoURL": "https://upload.wikimedia.org/wikipedia/en/0/0e/Thurston_Howell%2C_III.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/en/0/0e/Thurston_Howell%2C_III.jpg",
         "scores": [
             5,
             1,
