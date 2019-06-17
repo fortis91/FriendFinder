@@ -2,6 +2,7 @@ let friends = require("../data/friends");
 
 module.exports = function (app) {
 
+  const add = (a, b) => a + b;
   for (var i = 0; i < friends.length; i++) {
     const sum = friends[i].scores.reduce(add);
     console.log(friends[i].name +': '+sum);
