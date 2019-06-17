@@ -1,4 +1,5 @@
-let friendArray = [
+//friends list - https://en.wikipedia.org/wiki/The_Big_Bang_Theory
+let friends = [
     {
         name: 'Sheldon',
         photo: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Jim_Parsons_2016.jpg',
@@ -96,4 +97,4 @@ let friendArray = [
         ]
     }
 ]
-module.exports = friendArray;
+module.exports = friends;

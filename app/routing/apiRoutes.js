@@ -1,31 +1,28 @@
-let friendData = require("../data/friends");
+let friends = require("../data/friends");
 
 module.exports = function (app) {
 
+  for (var i = 0; i < friends.length; i++) {
+    const sum = friends[i].scores.reduce(add);
+    console.log(friends[i].name +': '+sum);
+  }
   app.get("/api/friends", function (request, response) {
-    response.json(friendData);
+    response.json(friends);
   });
 
   app.post("/api/friends", function (request, response) {
-    console.log(request.body);
     var friend = request.body;
 
-    // var bestFriend = {
-    //   name: 'friend',
-    //   photo: "http://d29k4lz094jbxq.cloudfront.net/wp-content/uploads/2018/03/22085842/Gilligan-Gets-Bugged-gilligans-island-29860649-813-621.jpg",
-    // }
-    // response.json(bestFriend);
-    let minimumDifference = 100;
+    let minimumDifference = 50;
     let bestFriend = null;
-    // let friend = request.body;
-    for (let i = 0; i < friendData.length; i++) {
-      let currentDifference = getDifference(friend, friendData[i]);
+    for (let i = 0; i < friends.length; i++) {
+      let currentDifference = getDifference(friend, friends[i]);
       if (currentDifference < minimumDifference) {
         minimumDifference = currentDifference;
-        bestFriend = friendData[i];
+        bestFriend = friends[i];
       }
     }
-    friendData.push(friend);
+    friends.push(friend);
     response.json(bestFriend);
   });
 
